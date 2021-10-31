@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html>
+<title>Om Tex Fab</title>
+  <link rel="icon"  href="logo.jpg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.mySlides {display:none;}
+
+</style>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#Home" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#Company" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
+  <a href="#Product" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Product</a>
+  <a href="#Contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+</div>    
+  
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#Company" class="w3-bar-item w3-button">Work</a>
+    <a href="#Product" class="w3-bar-item w3-button">Product</a>
+    <a href="#Contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity" id="Home">
+  <img src="background.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-display-middle">  
+    <img src="logo.jpg" style="width: 250px;height: 250px;">
+    <div class="w3-container ">
+    <h1 style="color: white;">Om Tex Fab</h1>
+  </div>
+  </div>
+</div>
+
+
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>Company's Owners</h2>
+
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="j1.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Jimit Borad</h3>
+</div>
+
+<div class="w3-quarter">
+  <img src="p.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Paresh Borad</h3>
+</div>
+
+</div>
+</div>
+
+<div class="w3-row-padding w3-padding-64 " id="work">
+
+<div class="w3-quarter">
+</div>
+<div id="Company">
+<h2 class="w3-center">Our Company</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="1.png" style="width:100%;height: 700px;">
+  <img class="mySlides" src="2.jpg" style="width:100%">
+  <img class="mySlides" src="3.jpg" style="width:100%">
+  <img class="mySlides" src="4.jpg" style="width:100%">
+  <img class="mySlides" src="5.jpg" style="width:100%">
+  <img class="mySlides" src="6.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+</div>
+</div>
+
+
+
+<div id="Product">
+<div class="w3-container w3-center">
+  <h2>Product</h2>
+</div>
+
+<div class="w3-content w3-section" style="max-width:500px">
+
+  <img class="mySlides1 w3-animate-fading" src="p11.jpg" style="width:100%">
+  <img class="mySlides1 w3-animate-fading" src="p12.jpg" style="width:100%">
+  <img class="mySlides1 w3-animate-fading" src="p13.jpg" style="width:100%">
+  <img class="mySlides1 w3-animate-fading" src="p14.jpg" style="width:100%">
+  <img class="mySlides1 w3-animate-fading" src="p21.jpg" style="width:100%">
+  <img class="mySlides1 w3-animate-fading" src="p22.jpg" style="width:100%">
+  <img class="mySlides1 w3-animate-fading" src="p23.jpg" style="width:100%">
+  <img class="mySlides1 w3-animate-fading" src="p24.jpg" style="width:100%">
+  <img class="mySlides1 w3-animate-fading" src="p31.jpg" style="width:100%">
+  <img class="mySlides1 w3-animate-fading" src="p32.jpg" style="width:100%">
+  <img class="mySlides1 w3-animate-fading" src="p33.jpg" style="width:100%">
+  <img class="mySlides1 w3-animate-fading" src="p34.jpg" style="width:100%">
+
+</div>
+</div>
+
+
+
+<div id="Contact">
+<div class="w3-container w3-center">
+  <h2>Testimonials</h2>
+  <button class="w3-btn w3-black" ><a href="https://g.page/r/CWg86FT1RPeAEAg/review">Write review</a></button>
+  <button class="w3-btn w3-black"><a href="https://www.google.com/search?q=om%20texfab&rlz=1C1CHBF_enIN953IN953&oq=om&aqs=chrome.0.69i59l2j69i57j35i39j0i67j0i131i433i512j69i60l2.1908j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=AOaemvKway6jcNfIx5nVL_OCKLpRkTRhBA:1635514242592&rflfq=1&num=10&rldimm=9292972176584490088&lqi=CglvbSB0ZXhmYWJImb2dq-C3gIAIWhMQABABGAAYASIJb20gdGV4ZmFikgEMbWFudWZhY3R1cmVyqgEKEAEqBiICb20oAA&ved=2ahUKEwi2ktGr3e_zAhWEjeYKHf3jCOIQvS56BAgLED0&rlst=f#rlfi=hd:;si:9292972176584490088,l,CglvbSB0ZXhmYWJImb2dq-C3gIAIWhMQABABGAAYASIJb20gdGV4ZmFikgEMbWFudWZhY3R1cmVyqgEKEAEqBiICb20oAA;mv:[[21.2248809,73.00302479999999],[21.070127499999998,72.8097988]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u16!2m2!16m1!1e1!1m4!1u16!2m2!16m1!1e2!2m1!1e2!2m1!1e16!2m1!1e3!3sIAE,lf:1,lf_ui:2">Show the review</a></button><br><br>
+  <button class="w3-btn w3-black w3-center"><a href="tel:9727389638">Contact Me</a></button>
+</div>
+
+
+<div class="w3-container w3-center">
+  <h2>Contact us</h2>
+  <div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.833819148281!2d72.86341981473237!3d21.079298485970995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be051f0086e58ff%3A0x80f744f554e83c68!2sOM%20TEX%20FAB!5e0!3m2!1sen!2sin!4v1635514631498!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<br>
+
+
+</div>
+</div>
+ 
+
+<script>
+  function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+</script>
+
+</body>
+</html>
